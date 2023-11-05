@@ -5,5 +5,5 @@
   tasks:
   - name: printing message
     # this is the map
-    ansible.builtin.pingdebug:
+    ansible.builtin.debug:
       msg: ""
