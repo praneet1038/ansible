@@ -1,0 +1,6 @@
+- name: install nginx 
+  become: true
+  hosts: localhost
+  tasks:
+  - name: installing nginx 
+    yum: state=present name=nginx
