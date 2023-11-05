@@ -5,4 +5,4 @@
   tasks:
     - name: getting
       ansible.builtin.debug:
-      msg: "i am printing {{hero}}"
+        msg: "i am printing {{hero}}"
