@@ -1,6 +1,8 @@
----
-- name: testing yaml code in git by
-  tasKs:
-    - name: printing something
-      ansible.builtin.debug: null
-      msg: learning devops
+- name: learning 
+  hosts: localhost
+  become: yes
+  taks:
+    - name: testing 
+      ansible.builtin.debug:
+        msg: "printing something"
+  
