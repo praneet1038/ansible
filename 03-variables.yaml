@@ -7,5 +7,5 @@
       username: centos
       homedir: /home/centos
   - name: print variables
-      ansible.builtin.debug:
-        msg: "The user is {{username}} and homedirectory is {{homedir}} "  
+    ansible.builtin.debug:
+      msg: "The user is {{username}} and homedirectory is {{homedir}} "  
