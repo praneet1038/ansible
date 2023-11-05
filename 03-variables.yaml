@@ -6,7 +6,6 @@
     vars:
       username: centos
       homedir: /home/centos
-    tasks:
-      - name: print variables
-        ansible.builtin.debug:
-          msg: "The user is {{username}} and homedirectory is {{homedir}} "  
+  - name: print variables
+      ansible.builtin.debug:
+        msg: "The user is {{username}} and homedirectory is {{homedir}} "  
