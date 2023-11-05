@@ -1,8 +1,7 @@
--  name: learning 
-   hosts: localhost
-   become: yes
-   taks:
-     - name: testing 
-       ansible.builtin.debug:
-         msg: "printing something"
-  
+- name: keknfke
+  become: yes
+  hosts: localhost
+  tasks: 
+    - name: print ksndmkfnek
+        ansible.builtin.debug:
+          msg: "ndndkgi"
