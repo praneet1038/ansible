@@ -3,8 +3,8 @@
   hosts: localhost
   vars:
     name: praneeth
-    caste: REDDY
+    lastname: REDDY
   tasks:
   - name: playlevel variables
     ansible.builtin.debug:
-      msg: "I am {{name}} and my caste is {{caste}}"
+      msg: "I am {{name}} and my caste is {{lastname}}"
