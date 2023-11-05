@@ -3,5 +3,5 @@
   hosts: localhost
   tasks: 
   - name: print ksndmkfnek
-      ansible.builtin.debug:
-          msg: "ndndkgibfrj"
+    ansible.builtin.debug:
+      msg: "ndndkgibfrj"
