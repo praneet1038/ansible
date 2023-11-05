@@ -1,7 +1,9 @@
-- name: keknfke
-  become: yes
+# Playbook is list of plays, always it should start with -
+- name: ping the node
   hosts: localhost
-  tasks: 
-    - name: print ksndmkfnek
-        ansible.builtin.debug:
-          msg: "ndndkgibfrj"
+  # this is list of tasks/modules/collections
+  tasks:
+  - name: printing message
+    # this is the map
+    ansible.builtin.pingdebug:
+      msg: ""
