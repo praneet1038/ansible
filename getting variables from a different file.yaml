@@ -1,7 +1,7 @@
 - name: getting variables from a file
   hosts: localhost
   var_files:
-    - storng variables in a file.yaml
+    - storing variables in a file.yaml
   tasks:
     - name: getting
       ansible.builtin.debug:
