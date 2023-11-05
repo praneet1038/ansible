@@ -3,7 +3,6 @@
   hosts: localhost
   vars:
     place: LONDON 
-
   tasks:
   ansible.builtin.debug:
-    msg: I live in {{place}}
+    msg: "{{place}}"
