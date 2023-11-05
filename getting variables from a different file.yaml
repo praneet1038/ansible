@@ -1,6 +1,6 @@
 - name: getting variables from a file
   hosts: localhost
-  var_files:
+  vars_files:
     - storing variables in a file.yaml
   tasks:
     - name: getting
