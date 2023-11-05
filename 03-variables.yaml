@@ -1,3 +1,5 @@
+
+---
 - name: printing variables
   hosts: all
   become: yes
