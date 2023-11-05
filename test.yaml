@@ -1,0 +1,6 @@
+- name: testing yaml code in git 
+  tasKs: 
+  - name: printing something 
+    ansible.builtin.debug:
+    msg: "learning devops"
+    
