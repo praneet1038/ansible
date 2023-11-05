@@ -1,9 +1,7 @@
-# Playbook is list of plays, always it should start with -
-- name: ping the node
+- name: keknfke
+  become: yes
   hosts: localhost
-  # this is list of tasks/modules/collections
-  tasks:
-  - name: printing message
-    # this is the map
-    ansible.builtin.debug:
-      msg: ""
+  tasks: 
+  - name: print ksndmkfnek
+      ansible.builtin.debug:
+          msg: "ndndkgibfrj"
