@@ -4,8 +4,8 @@
   tasks:
   - name: print variables 
     vars:
-      - username: centos
-      - homedir: /home/centos
+      username: centos
+      homedir: /home/centos
     tasks:
       - name: print variables
         ansible.builtin.debug:
