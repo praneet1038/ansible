@@ -1,11 +1,10 @@
 - name: printing variables
   hosts: all
   become: yes
-  tasks:
-  - name: print variables 
+  tasks:   
+  - name: print variables
     vars:
       username: centos
       homedir: /home/centos
-  - name: print variables
     ansible.builtin.debug:
       msg: "The user is {{username}} and homedirectory is {{homedir}} "  
