@@ -2,7 +2,10 @@
   become: yes 
   hosts: localhost
   vars:
-  - place: LONDON 
+    place: LONDON 
   tasks:
-  ansible.builtin.debug:
-  msg: "i live in {{place}}"
+  - name: print vars1
+    ansible.builtin.debug:
+      msg: "i live in {{place}}"
+
+  
