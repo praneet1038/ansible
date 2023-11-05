@@ -1,0 +1,4 @@
+- name: storing variables
+  vars:
+    movie: jai chiranjeeva
+    hero: Konidela shiva shankara vara prasad

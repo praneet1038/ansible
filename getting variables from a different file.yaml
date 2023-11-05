@@ -1,0 +1,8 @@
+- name: getting variables from a file
+  hosts: localhost
+  var_files:
+    - getting variables from a different file.yaml
+  tasks:
+    - name: getting 
+      ansible.builtin.debug:
+      msg: "i am printing {{hero}}"
