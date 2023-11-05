@@ -5,4 +5,4 @@
     place: LONDON 
   tasks:
   ansible.builtin.debug:
-    msg: "i live in {{place}}"
+  msg: "i live in {{place}}"
