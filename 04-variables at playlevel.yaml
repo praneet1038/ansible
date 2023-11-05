@@ -1,0 +1,10 @@
+- name: printing the variables
+  become: yes
+  hosts: localhost
+  vars:
+    name: praneeth
+    caste: REDDY
+  tasks:
+  - name: playlevel variables
+    ansible.builtin.debug:
+      msg: "I am {{name}} and my caste is {{caste}}"
